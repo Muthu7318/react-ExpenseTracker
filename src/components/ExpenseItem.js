@@ -1,5 +1,11 @@
 function ExpenseItem() {
-  return <h2>Expense Item</h2>;
+  return (
+    <div>
+      <h2>Food</h2>
+      <div>March 28 2022</div>
+      <div>500</div>
+    </div>
+  );
 }
 
 export default ExpenseItem;
