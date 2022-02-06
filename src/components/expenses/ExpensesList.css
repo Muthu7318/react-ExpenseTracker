@@ -7,3 +7,9 @@
   color: white;
   text-align: center;
 }
+
+@media (max-width: 450px) {
+  .expenses-list__fallback {
+    font-size: 1rem;
+  }
+}
